@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DebouncingTestSystem.srcs/sources_1/imports/eksamenstrening/DebouncingCircuit/DebouncingCircuit.srcs/sources_1/new/Debounce.vhd" \
+"../../../../DebouncingTestSystem.srcs/sources_1/imports/eksamenstrening/EdgeDetector/EdgeDetector.srcs/sources_1/new/EdgeDetector.vhd" \
+"../../../../DebouncingTestSystem.srcs/sources_1/imports/eksamenstrening/HexToSseg/HexToSseg.srcs/sources_1/new/HexToSseg.vhd" \
+"../../../../DebouncingTestSystem.srcs/sources_1/imports/eksamenstrening/ModMCounter/ModMCounter.srcs/sources_1/new/ModMCounter.vhd" \
+"../../../../DebouncingTestSystem.srcs/sources_1/new/TopBlock.vhd" \
+"../../../../DebouncingTestSystem.srcs/sim_1/new/TopBlock_tb.vhd" \
+
+# Do not sort compile order
+nosort
